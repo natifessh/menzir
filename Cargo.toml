@@ -1,0 +1,15 @@
+[package]
+name = "cryto-exchange"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.12.8", features = ["json"] }
+colored = "2.1.0"
+clap = { version = "4.5.20", features = ["derive"] }
+chrono = "0.4.38"
+mockito = "1.5.0"
+anyhow = "1.0.90"
